@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ISpy</string>
+    <string name="infotext">Patientez extraction des messages...</string>
+    <string name="msgs">Entrez le numéro de téléphone de la victime, I Spy va vous révéler les messages.</string>
+    <string name="enter_phone_number">Enter phone number</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="x2zzzooolk2024">x2ZZZooolk2024</string>
+</resources>

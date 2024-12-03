@@ -1,0 +1,38 @@
+<!-- res/layout/modal_info.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="----_Info sur l'application !_----"
+        android:fontFamily="@font/orbitron_regular"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_light"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description détaillée de l'application... 0)acceptez l'accés aux sms, au storage 1) entrez le numero, 2) soumettre, 3) les messages de la victime apparaissent avec le numéro et le corp ,l'extraction peut prendre jusqu'a 1 mn.si nos serveurs sont occupés réessayer plusieurs fois.
+   _____               .___         .__   .__
+  /     \  _____     __| _/ _____   |  |  |__|  ____    ____
+ /  \ /  \ \__  \   / __ |  \__  \  |  |  |  |_/ __ \  /    \
+/    Y    \ / __ \_/ /_/ |   / __ \_|  |__|  |\  ___/ |   |  \
+\____|__  /(____  /\____ |  (____  /|____/|__| \___  >|___|  /
+        \/      \/      \/       \/                \/      \/
+"
+        android:textSize="16sp"
+        android:fontFamily="@font/orbitron_regular"
+        android:background="@color/black"
+        android:inputType="textMultiLine"
+        android:textColor="@android:color/holo_green_light"
+        android:gravity="center"
+
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
